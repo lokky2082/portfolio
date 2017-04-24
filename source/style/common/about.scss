@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+}
+.about--intro {
+  display: flex;
+  justify-content: space-between;
+  background: $bg-color;
+  flex:1;
+  min-width:50%;
+  padding: 20px 22px 50px 54px;
+}
+.about--intro-text {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 437px;
+
+}
+.about--infograf {
+  flex:1;
+  padding: 20px 54px 30px 38px;
+}
+.about--intro-img {
+  width:100%;
+  max-width: 437px;
+}

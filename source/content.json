@@ -1,0 +1,71 @@
+{
+  "skills":[
+    { "skill":"Frontend",
+      "items":[
+        {
+          "name":"HTML5",
+          "percent":98
+        },
+        {
+          "name":"CSS",
+          "percent":80
+        },
+        {
+          "name":"JS",
+          "percent":50
+        }
+      ]
+    },
+    { "skill":"Backtend",
+      "items":[
+        {
+          "name":"PHP",
+          "percent":98
+        },
+        {
+          "name":"MySQL",
+          "percent":80
+        },
+        {
+          "name":"Node.js",
+          "percent":50
+        }
+      ]
+    }
+  ],
+  "mainNav":[
+    {
+    "title":"обо мне",
+    "url":""
+    },
+    {
+      "title":"мои работы",
+      "url":"works.html"
+    },
+    {
+      "title":"блог",
+      "url":"blog.html"
+    },
+    {
+      "title":"авторизация",
+      "url":"auth.html"
+    }
+  ],
+  "socials":[
+    {
+      "link":"https://github.com/lokky2082",
+      "title":"github link",
+      "img":"github"
+    },
+    {
+      "link":"https://vk.com/id121067661",
+      "title":"vk link",
+      "img":"vk"
+    },
+    {
+      "link":"",
+      "title":"linkedin",
+      "img":"in"
+    }
+  ]
+}

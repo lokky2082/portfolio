@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.u-fit {
+  width: 100%;
+  height: 100%;
+}
+%u-fit {
+
+}
+.u-centered-text {
+  text-align: center;
+  width:100%;
+}
+%u-centered-text {
+  text-align: center;
+  width:100%;
+}
+%u-center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.u-center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.u-main-wr {
+  min-height:100vh;
+}

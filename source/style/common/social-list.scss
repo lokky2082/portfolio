@@ -1,0 +1,16 @@
+.social-list {
+   display: flex;
+}
+.social-list--item {
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  transition: color 1s ease;
+  &:hover {
+    color:$accent-color;
+  }
+}

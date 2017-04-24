@@ -1,0 +1,9 @@
+mixin main-nav(data, current)
+    nav.main-nav#mainMenu
+        a(href="#", title="закрыть меню").main-nav--close
+            +add-svg('cancel')
+        if(data)
+            each item, index in data
+                a.main-nav--item(class=(index === current ? "main-nav--item__current" : ''), href='/'+item.url)
+                    span.main-nav--item_title #{item.title}
+

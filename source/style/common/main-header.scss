@@ -1,0 +1,27 @@
+.main-header {
+  position: relative;
+  height: 90vh;
+  background-image:url('../img/svgsprite.svg'), url('../img/heder-back.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size:80%, cover;
+  background-attachment:scroll, fixed;
+  background-position: center center, center center;
+  width:100%;
+  overflow: hidden;
+}
+.main-header--top {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding: 28px 30px;
+}
+.main-header--bot {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width:100%;
+  svg {
+    width:50%;
+  }
+}

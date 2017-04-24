@@ -1,0 +1,6 @@
+mixin social-list(data,extraClass)
+      if(data)
+         nav.social-list(class=(extraClass ? "social-list--"+ extraClass: ''))
+             each item, index in data
+              a.social-list--item(href=item.link, title=item.title)
+                +add-svg(item.img)

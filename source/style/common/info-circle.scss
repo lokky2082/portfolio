@@ -1,0 +1,12 @@
+.info-circle {
+  width:120px;
+  height:120px;
+  position:relative;
+
+}
+.info-circle--img{
+  transform: rotate(270deg);
+}
+.info-circle--text {
+ @extend %u-center;
+}

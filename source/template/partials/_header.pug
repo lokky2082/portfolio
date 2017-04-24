@@ -1,0 +1,23 @@
+header.main-header
+  .main-header--top.row.row--sp-b
+    -var socialsList = socials
+    +social-list(socialsList)
+    a(href="#mainMenu", title="открыть меню").humburger
+      +add-svg('hamburger')
+    -var nav = mainNav
+    +main-nav(mainNav, currentPage)
+  .main-header--content
+      .intro
+          .intro--img
+              img(src="assets/img/my.jpg", alt="Юлия Зайцева")
+          .intro--text
+              h3.intro--text-title Юлия Зайцева
+              h4.intro--text-sub-title Личный сайт веб разработчика
+      a(href="#about").arr-down
+          +add-svg('arrow_down')
+  .main-header--bot
+      svg(preserveAspectRatio="none", viewBox="0 0 1000 100")
+        polygon(points="0,0 0,100 1000,100", fill=polygonFirst)
+      svg(preserveAspectRatio="none", viewBox="0 0 1000 100")
+        polygon(points="0,100 1000,100 1000,0", fill=polygonSecond)
+
